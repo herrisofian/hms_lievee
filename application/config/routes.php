@@ -59,3 +59,10 @@ $route['masterbed/delete'] = 'master/Master_bed/deleteBed';
 $route['masterbed/add'] = 'master/Master_bed/addBed';
 $route['masterbed/getedit'] = 'master/Master_bed/getEditBed';
 $route['masterbed/update'] = 'master/Master_bed/updateBed';
+
+// =================== MASTER TOWER==================== //
+$route['mastertower'] = 'master/Master_tower/index';
+$route['mastertower/delete'] = 'master/Master_tower/deleteTower';
+$route['mastertower/add'] = 'master/Master_tower/addTower';
+$route['mastertower/getedit'] = 'master/Master_tower/getEditTower';
+$route['mastertower/update'] = 'master/Master_tower/updateTower';
