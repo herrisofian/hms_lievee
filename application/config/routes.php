@@ -73,3 +73,10 @@ $route['masterdescroom/delete'] = 'master/Master_descroom/deleteDescroom';
 $route['masterdescroom/add'] = 'master/Master_descroom/addDescroom';
 $route['masterdescroom/getedit'] = 'master/Master_descroom/getEditDescroom';
 $route['masterdescroom/update'] = 'master/Master_descroom/updateDescroom';
+
+// =================== MASTER STATUS ROOM==================== //
+$route['masterstatroom'] = 'master/Master_statroom/index';
+$route['masterstatroom/delete'] = 'master/Master_statroom/deleteStatRoom';
+$route['masterstatroom/add'] = 'master/Master_statroom/addStatRoom';
+$route['masterstatroom/getedit'] = 'master/Master_statroom/getEditStatRoom';
+$route['masterstatroom/update'] = 'master/Master_statroom/updateStatRoom';
