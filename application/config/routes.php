@@ -66,3 +66,10 @@ $route['mastertower/delete'] = 'master/Master_tower/deleteTower';
 $route['mastertower/add'] = 'master/Master_tower/addTower';
 $route['mastertower/getedit'] = 'master/Master_tower/getEditTower';
 $route['mastertower/update'] = 'master/Master_tower/updateTower';
+
+// =================== MASTER DESCRIPTION ROOM==================== //
+$route['masterdescroom'] = 'master/Master_descroom/index';
+$route['masterdescroom/delete'] = 'master/Master_descroom/deleteDescroom';
+$route['masterdescroom/add'] = 'master/Master_descroom/addDescroom';
+$route['masterdescroom/getedit'] = 'master/Master_descroom/getEditDescroom';
+$route['masterdescroom/update'] = 'master/Master_descroom/updateDescroom';
